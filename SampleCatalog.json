@@ -1,0 +1,83 @@
+{
+	"services": [],
+	"homeCamera": {
+		"north": -8,
+		"east": 158,
+		"south": -45,
+		"west": 109
+	},
+	"corsDomains": ["corsproxy.com",
+	"programs.communications.gov.au",
+	"www.asris.csiro.au",
+	"mapsengine.google.com",
+	"s3-ap-southeast-2.amazonaws.com",
+	"data.melbourne.vic.gov.au",
+	"data.act.gov.au"],
+	"catalog": [{
+		"name": "GeoRabble Samples",
+		"type": "group",
+		"items": [
+				{
+				"name": "Taxation Statistics 2013-2014",
+				"type": "csv",
+				"url": "http://data.gov.au/dataset/25e81c18-2083-4abe-81b6-0f530053c63f/resource/9f10b598-fbbb-4028-a982-80d317de7c34/download/taxstats2014individual27selectedaveragesandmediansbypostcode.csv",
+				"tableStyle": {
+					"dataVariable": "averagetaxableincomeorloss",
+					"timeColumn": null,
+					"colorBins": [-5000,
+					41154,
+					50770,
+					60385,
+					70000],
+					"colorPalette": "5-class PuBu"
+				}
+			},
+			{
+				"name": "BAMS C4ISR (CZML)",
+				"type": "czml",
+				"url": "https://raw.githubusercontent.com/koansys/iearth/master/BAMS_C4ISR.czml"
+			},
+			{
+				"name": "Millennium Falcon (CZML)",
+				"type": "czml",
+				"url": "https://raw.githubusercontent.com/tobybellwood/Locate17/master/Falcon.czml"
+			},
+			{
+				"name": "Bird Migration (CZML)",
+				"type": "czml",
+				"url": "https://raw.githubusercontent.com/rsignell-usgs/ehzrap/master/testing/bird_migration.czml"
+			},
+			{
+				"name": "Contribution to National Reserve System, by IBRA7",
+				"type": "csv",
+				"url": "https://raw.githubusercontent.com/tobybellwood/Locate17/master/capad_2010-2014_IBRA7_reg.csv",
+				"tableStyle": {
+					"dataVariable": "2014 Contribution to NRS (% Total)",
+					
+				}
+			},
+			{
+				"name": "2016 Election 2PP by Division",
+				"type": "csv",
+				"url": "https://raw.githubusercontent.com/tobybellwood/SampleFiles/master/HouseTppByDivisionDownload-20499.csv",
+				"tableStyle": {
+					"dataVariable": "Australian Labor Party Percentage",
+					"timeColumn": null,
+					"colorMap": "hsl(212,100%,29%)----rgb(231,240,243)-rgb(255,236,238)----hsl(357,88%,35%)",
+					"colorBins": [35,
+					40,
+					44,
+					46,
+					48,
+					50,
+					52,
+					54,
+					56,
+					60,
+					65]
+				}
+			},
+			],
+	}
+	]
+}
