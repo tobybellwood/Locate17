@@ -1,0 +1,29 @@
+[
+	{
+	"id": "document",
+	"version": "1.0"
+	},
+	{
+		"id": "Millennium Falcon in Sydney",
+		"position": {
+			"cartographicDegrees": [
+				151.178,
+				-33.928,
+				8.5
+			]
+		},
+		"model": {
+			"gltf": {
+				"uri": "https://raw.githubusercontent.com/kalmykov/fr24-3d-models/master/models/millennium_falcon.gltf"
+			},
+			"scale": {
+				"number": [
+					4
+				]
+			},
+			"show": {
+				"boolean": true
+			}
+		}
+	}
+]
